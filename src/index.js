@@ -23,7 +23,7 @@ app.get('/constants', (req, res) => {
     res.send(JSON.stringify(constants));
 });
 
-const port = process.env.PORT || 1234;
+const port = process.env.PORT || 3000;
 
 http.listen(port, () => {
     console.log(`Server listening at port ${port}`);
